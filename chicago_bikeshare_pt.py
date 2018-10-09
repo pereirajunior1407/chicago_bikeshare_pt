@@ -231,7 +231,7 @@ min_trip = 0.
 max_trip = 0.
 mean_trip = 0.
 median_trip = 0.
-
+#Aqui eu tive ajuda nos canais do slack e também no repositório de "GabrielRubio" (https://github.com/GabrielRubio)
 min_trip = float(trip_duration_list[0])
 max_trip = float(trip_duration_list[0])
 total_sum = 0
@@ -293,7 +293,7 @@ input("Aperte Enter para continuar...")
 # para que nós possamos usar essa função com outra categoria de dados.
 print("Você vai encarar o desafio? (yes ou no)")
 answer = "yes"
-
+#Nessa função eu busquei ajuda e encontrei no repositório do GitHub de "GabrielRubio" (https://github.com/GabrielRubio). 
 def count_items(column_list):
     item_list_set = set(column_list)
     item_types = []
